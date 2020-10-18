@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sunning" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:background="#F2F2F2"
+        android:layout_centerHorizontal="true">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameSU"
+        android:layout_centerHorizontal="true"
+        android:layout_width="314dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="330dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_baseline_accessibility_new_24" />
+
+    <EditText
+        android:id="@+id/editTextTextPasswordSU"
+        android:layout_centerHorizontal="true"
+        android:layout_width="314dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="380dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_width="314dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="430dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        tools:text="Đăng ký" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP"
+        android:textColor="@color/colorWhite"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/button" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/gg" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/tw" />
+    </LinearLayout>
+
+
+</RelativeLayout>

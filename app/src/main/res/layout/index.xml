@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sunning" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:background="#F2F2F2"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_index"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorWhite"
+        android:text="Đăng nhập với tài khoản"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/signup_index"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:background="@color/colorWhite"
+        android:text="Tạo tài khoản mới"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
